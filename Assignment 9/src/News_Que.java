@@ -108,11 +108,11 @@ public class News_Que {
 		
 		*/
 		
-		//Que7
-		//List<News> CommentByUser=news.stream().sorted(Comparator.comparing(News::getCommentByUser)).distinct().collect(Collectors.toList());
-		//CommentByUser.forEach(System.out::println);
-		//Map<News, Long> result = news.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-		//System.out.println(result);
+		// Que7)
+        System.out.println();
+        news.forEach((News)-> {
+       	 System.out.println("usercomments: " + News.getCommentByUser() + "," + " Number of comments: "+ News.getComment());
+        });
 	}
 
 }
