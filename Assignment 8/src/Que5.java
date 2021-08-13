@@ -27,5 +27,4 @@ public class Que5 {
 		System.out.println(SB);
 
 	}
-
 }
