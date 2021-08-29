@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="Customer" class="Que1.Customer">
+<constructor-arg index="0" value="100"/>
+<constructor-arg index="1" value="Amruta"/>
+<constructor-arg index="2" value="75434795"/>
+<constructor-arg index="3" ref="address"/>
+
+</bean>
+<bean id="address" class="Que1.Address">
+<constructor-arg index="0" value="Padali"/>
+<constructor-arg index="1" value="Maharastra"/>
+<constructor-arg index="2" value="Kolhapur"/>
+<constructor-arg index="3" value="416112"/>
+<constructor-arg index="4" value="India"/>
+
+</bean>
+</beans>

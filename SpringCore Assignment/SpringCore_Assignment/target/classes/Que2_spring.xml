@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans  xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+	<bean id="Question" class="Que2.Question">
+	<property name="questionId" value="1" />
+	<property name="question" value="What are the features of java?" />
+	<property name="answer1">
+		<list>
+			<value>simple</value>
+			<value>Object-Oriented</value>
+			<value>Robust</value>
+			<value>Platform Independent</value>
+			<value>Secure</value>
+		</list>
+	</property>
+	<property name="answer2">
+		<set>
+			<value>simple</value>
+			<value>Object-Oriented</value>
+			<value>Robust</value>
+			<value>Platform Independent</value>
+			<value>Secure</value>
+		</set>
+	</property>
+	<property name = "answer3">
+         <map>
+            <entry key = "1" value = "simple"/>
+            <entry key = "2" value = "Object-Oriented"/>
+            <entry key = "3" value = "Robust"/>
+            <entry key = "4" value = "Platform Independent"/>
+            <entry key = "5" value = "secure"/>
+         </map>
+      </property>
+	
+	</bean>
+
+</beans>
