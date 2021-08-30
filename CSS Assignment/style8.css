@@ -1,0 +1,15 @@
+p.one{
+    border:solid black;
+    border-width: 10px;
+    background-color: lightblue;
+}
+p.two{
+    border:solid black;
+    border-width: 6px;
+    background-color: lightblue;
+}
+p.three{
+    border:solid black;
+    border-width: 3px;
+    background-color: lightblue;
+}
