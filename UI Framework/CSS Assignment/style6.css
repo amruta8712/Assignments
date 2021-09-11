@@ -1,0 +1,7 @@
+table,th,td{
+    border:solid darkgreen;
+}
+th{
+    background-color: green;
+    font-weight: bold;
+}

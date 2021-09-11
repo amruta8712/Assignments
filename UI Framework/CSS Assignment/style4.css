@@ -1,0 +1,9 @@
+a{
+    color: green;
+}
+a.visited{
+    color: red;
+}
+html{
+    background-color: lightblue;
+}
